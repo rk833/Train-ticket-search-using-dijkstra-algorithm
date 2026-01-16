@@ -1,0 +1,69 @@
+site_name: Train Ticket Search System
+site_description: Optimal Railway Route Finder using Dijkstra’s Algorithm
+site_author: Ridesha Khadka
+site_url: https://github.com/rk833/Train-ticket-search-using-dijkstra-algorithm
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["src", "."]
+          options:
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: false
+            separate_signature: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Main Program: main.md
+  - Railway Network: railway_network.md
+  - Route Searcher: route_searcher.md
+  - User Interface: user_interface.md
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rk833/Train-ticket-search-using-dijkstra-algorithm
+
+extra_css:
+  - styles/extra.css

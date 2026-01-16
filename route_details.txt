@@ -1,0 +1,19 @@
+                             ROUTE FOUND
+                             
+ Fastest Route
+
+Route (in order):
+ 1. Diss (START)
+ 2. Stowmarket
+ 3. Bury St Edmunds
+ 4. CAMBRIDGE
+ 5. Letchworth
+ 6. STEVENAGE
+ 7. London (DESTINATION)
+
+Journey Summary:
+ • Total Stations: 7
+ • Total Cost: £87
+ • Total Time: 87 minutes (1h 27m)
+ • Connections Explored: 94
+
