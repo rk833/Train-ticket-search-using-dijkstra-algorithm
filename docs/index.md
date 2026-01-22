@@ -10,7 +10,7 @@ The railway network is modelled as a weighted graph, where stations are vertices
 - Graph-based railway network representation  
 - Dijkstra’s shortest path algorithm  
 - Modular system architecture  
-- Interactive console interface  
+- Interactive console and Tkinter interface 
 - Optimisation by distance or cost  
 - CSV-based data loading  
 

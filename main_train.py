@@ -2,7 +2,7 @@
 Train Ticket Search System (Task 1.3)
 
 Finds optimal train routes using Dijkstra's shortest path algorithm
-and provides a console-based user interface.
+and provides a console-based and Tkinter user interface.
 """
 import os
 from src.railway_network import RailwayNetwork
