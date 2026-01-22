@@ -4,7 +4,6 @@ This project implements a train ticket search system that finds optimal routes b
 
 The railway network is modelled as a weighted graph, where stations are vertices and track connections are edges. The system allows users to search for routes optimised by cost or time and displays detailed journey results.
 
----
 
 ## Core Features
 
